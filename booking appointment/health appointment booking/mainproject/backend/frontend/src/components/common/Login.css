@@ -1,0 +1,67 @@
+/* Gradient Navbar */
+.nav-gradient {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+/* Fullscreen Background */
+.login-page {
+  background-image: url('../../images/hosp1.jpg'); /* Update path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Glass Login Box */
+.login-box {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 3rem 2.5rem;
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 1s ease;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h3 {
+  font-size: 1.75rem;
+}
+
+.login-box .form-control {
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+.login-box .btn-primary {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.login-box a {
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .login-box {
+    padding: 2rem 1.5rem;
+  }
+}

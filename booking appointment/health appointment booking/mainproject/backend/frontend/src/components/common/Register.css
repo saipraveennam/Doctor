@@ -1,0 +1,74 @@
+/* Background and Layout */
+.register-page {
+  background-image: url('../../images/d.jpg'); /* Update path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Glassmorphic Form Box */
+.register-form-box {
+  background: rgba(255, 255, 255, 0.95); /* increased opacity (from 0.85 to 0.95) */
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  color: #0056b3;
+  font-weight: bold;
+  width: 100%;
+  max-width: 700px;
+  animation: fadeIn 0.8s ease-in-out;
+  padding: 2rem;
+}
+
+/* Navbar Glass */
+.navbar-glass {
+ background: linear-gradient(135deg, #007bff, #0056b3);
+  backdrop-filter: blur(0px);
+  color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-glass .btn {
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form Input Style */
+.register-form-box input {
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+/* Responsive Layout */
+@media (max-width: 767px) {
+  .register-form-box {
+    max-width: 90%;
+    padding: 1.5rem 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-6 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
