@@ -2,11 +2,13 @@
 
 👥 Team Members:
 
-Team Leader: N Megha Suvarchala 
+Team Leader: Sai Praveen
 
-Team Member: Y Mary Mona Reddy
+Team Member:  Gujju Pavithra
 
-Team Member: K Mounika
+Team Member: Javvadula Praveen
+
+Team Member: Naveen Valasani
 
 
 🔗 GitHub Repository: 👉 https://github.com/nandyalameghasuvarchala/Booking-health-appointment
