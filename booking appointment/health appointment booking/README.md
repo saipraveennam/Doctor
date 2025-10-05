@@ -2,7 +2,7 @@
 
 👥 Team Members:
 
-Team Leader: Sai Praveen
+Team Leader: Sai Praveen Nam
 
 Team Member:  Gujju Pavithra
 
