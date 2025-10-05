@@ -11,7 +11,7 @@ Team Member: Javvadula Praveen
 Team Member: Naveen Valasani
 
 
-🔗 GitHub Repository: 👉 https://github.com/nandyalameghasuvarchala/Booking-health-appointment
+🔗 GitHub Repository: 👉 (https://github.com/saipraveennam/Doctor/tree/main/booking%20appointment/health%20appointment%20booking)
 
 🌐 Live Application Link: 👉 https://book-a-doctor-10.onrender.com
 
